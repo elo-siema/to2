@@ -50,30 +50,30 @@ namespace TheShow.Infrastructure
 
         private async Task SeedUsers()
         {
-            var tomek = await _userManager.FindByEmailAsync("tomebee0@gmail.com");
-            if (tomek is null)
+            var user = await _userManager.FindByEmailAsync("user@gmail.com");
+            if (user is null)
             {
-                tomek = new User
+                user = new User
                 {
-                    Email = "tomebee0@gmail.com",
-                    UserName = "tomek"
+                    Email = "user@gmail.com",
+                    UserName = "user"
                 };
-                tomek.SetName("Tomasz", "Belczyk");
-                await _userManager.CreateAsync(tomek, "12345678aA");
+                user.SetName("User", "Userski");
+                await _userManager.CreateAsync(user, "tajnehaslo");
             }
 
-            await _userManager.AddToRoleAsync(tomek, Roles.User);
+            await _userManager.AddToRoleAsync(user, Roles.User);
 
-            var admin = await _userManager.FindByEmailAsync("tomkbe@student.agh.edu.pl");
+            var admin = await _userManager.FindByEmailAsync("admin@gmail.com");
             if (admin is null)
             {
                 admin = new User
                 {
-                    Email = "tomkbe@student.agh.edu.pl",
+                    Email = "admin@gmail.com",
                     UserName = "admin"
                 };
-                admin.SetName("Tomasz", "Belczyk");
-                await _userManager.CreateAsync(admin, "12345678aA");
+                admin.SetName("Admin", "Adminski");
+                await _userManager.CreateAsync(admin, "tajnehaslo");
             }
 
             await _userManager.AddToRoleAsync(admin, Roles.Administrator);
