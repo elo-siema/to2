@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheShow.Domain.Aggregate">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aggregate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.DomainException">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.Entity">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.Movie">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAggAAAAAAAAAAQAAAAAAABAAAAAAAAAgAA=</HashCode>
+      <FileName>Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.MovieShowcase">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAEAAAAAAAAAgAAQAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MovieShowcase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.UserReservation">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAgCAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserReservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.Services.MovieService">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\MovieService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.User.Roles">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User\Roles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheShow.Domain.User.User">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAQAAAAAg=</HashCode>
+      <FileName>User\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TheShow.Domain.Repositories.IMovieRepository">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IMovieRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheShow.Domain.Repositories.IReservationRepository">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IReservationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheShow.Domain.Repositories.IUserRepository">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TheShow.Domain.MovieCategory">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAQ=</HashCode>
+      <FileName>MovieCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
